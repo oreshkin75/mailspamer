@@ -1,5 +1,5 @@
 serverPort: 4444
-externalServer: http://oreshkincenter.keenetic.pro:8888
+externalServer: 
 mailconf:
   mail: 
   password: 
