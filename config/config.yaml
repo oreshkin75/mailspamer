@@ -1,0 +1,11 @@
+serverPort: 4444
+externalServer: http://oreshkincenter.keenetic.pro:8888
+mailconf:
+  mail: 
+  password: 
+  smtp: 
+database:
+  user: postgres
+  password: 
+  dbname: mailServer
+  sslmode: disable
