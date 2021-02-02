@@ -9,15 +9,15 @@
 Конфигурационный файл указывается как первый аргумент командной строки.
 Файл должен быть в формате .yaml.
 ```
-serverPort: 
-externalServer: 
+serverPort: 888
+externalServer: http://externalserver.com
 mailconf:
-  mail: 
-  password: 
-  smtp: 
+  mail: example@mail.com
+  password: examplepass
+  smtp: smtp.test.com
 database:
-  user: 
-  password: 
-  dbname: 
-  sslmode: 
+  user: postgre
+  password: testpass
+  dbname: emailDb
+  sslmode: false
 ```
